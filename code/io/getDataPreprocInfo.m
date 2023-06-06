@@ -18,7 +18,7 @@ switch lower(dataName)
         PP.T = 100;
         PP.nStates = 10;
         PP.V = 1000; % # vocabulary symbols
-        PP.obsDim = -5;
+        PP.obsDim = 5;
         PP.pEmitFavor = 0.9; % prob. state emits symbol from its favored set
     case {'synthgaussian', 'synthnormal'}
         PP.nObj = 50;
